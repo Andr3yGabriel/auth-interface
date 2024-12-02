@@ -4,7 +4,6 @@ import { Button, IftaLabel, InputText, Password, Toast } from 'primevue';
 import { useToast } from "primevue/usetoast";
 import { defineComponent, ref, onMounted, computed } from 'vue';
 import apiClient from '../axiosConfig';
-import router from '../router';
 
 export default defineComponent({
     name: 'Register',
